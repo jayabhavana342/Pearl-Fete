@@ -1,0 +1,153 @@
+/* wide screen styles */
+/*.et-wrapper{
+	height:950px !important;
+}
+
+.left{
+	height:950px !important;
+}
+
+.right{
+	height:950px !important;
+}*/
+
+.portfolio{
+	/*background-image: url(../img/panelbgs/13.jpg);*/
+	background-position: -170px 0px;
+	background-size: auto 100%;
+}
+
+.rightpanel .content{
+	top:500px;
+}
+
+.main-image{
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.main-content{
+	width: 650px;
+}
+
+.main-content h1{
+	color: #c0392b;
+	padding-bottom: 0px;
+}
+.main-arrow-left{
+	width: 30px;
+	position: absolute;
+	top:130px;
+	left:10px;
+}
+
+.main-arrow-right{
+	width: 30px;
+	position: absolute;
+	top:130px;
+	right:0px;
+}
+
+/* Home */
+.left .main{
+	top: 380px;
+	padding:40px 200px 50px 20px;
+}
+
+.left .main h1{
+	margin-bottom: 30px;
+}
+
+.left .main p{
+	font-size: 20px;
+	line-height: 34px;
+	color: #eee;
+
+}
+
+.left.home .main p{
+	color:#222;
+}
+
+.rightpanel .title{
+	height: 70px;
+	top:-100px;
+	line-height: 70px;
+	font-size: 18px;
+}
+
+/* Portfolio Fix */
+.left.pgbg .main{
+	top:100px;
+	color: #eee;
+}
+
+.left.pgbg .main p{
+	font-size: 20px;
+	line-height: 36px;
+	/*padding-top:30px;*/
+}
+
+.double-column{
+	margin-top:150px;
+}
+
+.double-column p{
+	font-size: 16px;
+	line-height: 34px;
+}
+
+/* Projects Fix */
+
+
+.tagline p{
+	padding: 100px;
+	padding-bottom: 120px;
+}
+
+.left.prbg .projects-thumb{
+	padding-top:40px;
+}
+.left.prbg .projects-thumb img{
+	width: 42%;
+}
+.left.prbg .main{
+	top:60px;
+}
+.left.prbg .main h1{
+	margin-bottom: 40px;
+}
+
+.left.prbg .main p{
+	font-size: 19px;
+	line-height: 36px;
+}
+
+.showcase{
+	width: 630px;
+	height:590px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+/* blog page */
+.left.blogpage .main{
+	top:60px;
+}
+
+/* Contactform */
+.left.contactpage .main{
+	top:60px;
+}
+.left.contactpage .main .double-column{
+	padding:0px 100px 0px 0px;
+}
+
+.left.contactpage .main .double-column p{
+	padding-top: 20px;
+}
+
+#contactform {
+	padding-top:50px;
+}

@@ -1,0 +1,166 @@
+@media all and (min-width: 769px) and (max-width: 1024px) {
+	/* wide screen styles */
+	.et-wrapper{
+		height:768px !important;
+	}
+
+	.left{
+		height:768px;
+		overflow: hidden;
+		/*overflow-y: auto;*/
+	}
+
+	.right{
+		height:768px !important;
+		overflow: hidden;
+	}
+
+	/* Home */
+	.left{
+		
+	}
+	.left .main{
+		top: -300px;
+		margin-right: 135px;
+	}
+
+	.left .main h1{
+		margin-bottom: 60px;
+	}
+
+	.left .main p{
+		font-size: 15px;
+		line-height: 30px;
+
+	}
+
+	/* Portfolio Fix */
+	.left.pgbg{
+		overflow: hidden;
+		overflow-y: auto;
+	}
+	.left.pgbg .main h1{
+		margin-bottom: 30px;
+	}
+	.left.pgbg .main{
+		top:60px;
+		margin-bottom: 10px;
+		padding-bottom: 50px;
+	}
+
+	.left.pgbg .main p{
+		font-size: 16px;
+		line-height: 34px;
+		/*padding-top:30px;*/
+	}
+
+	.double-column{
+		padding-top:15px;
+
+	}
+
+	.double-column p{
+		font-size: 13px;
+		line-height: 30px;
+		padding-top: 00px;
+		column-count:1;
+		-moz-column-count:1; /* Firefox */
+		-webkit-column-count:1; /* Safari and Chrome */
+	}
+
+	.left.pgbg .footer{
+		display: none;
+	}
+
+	/* Projects Fix */
+	.portfolio-items{
+		height:768px;
+	}
+
+	.tagline p{
+		padding: 100px;
+		padding-bottom: 120px;
+	}
+
+	.left.prbg .footer{
+		display: none;
+	}
+	.left.prbg .projects-thumb{
+		padding-top:40px;
+	}
+	.left.prbg .projects-thumb img{
+		height: 200px;
+		width: auto;
+	}
+	.left.prbg .main{
+		top:60px;
+	}
+	.left.prbg .main h1{
+		margin-bottom: 40px;
+	}
+
+	.left.prbg .main p{
+		font-size: 15px;
+		line-height: 30px;
+
+	}
+	.rightpanel .trpanel{
+		height:950px;
+	}
+
+	/* Contactform */
+	.left.contactpage .main{
+		top:150px;
+	}
+	.left.contactpage .main p{
+		padding:0px 100px 0px 0px;
+	}
+
+	#contactform {
+		padding-top:50px;
+	}
+
+	/* Team Showcase */
+	.hm{
+		display: none;
+	}
+
+	.showcase-strip{
+		width: 1500px;
+	}
+
+	.showcase-page{
+		width:500px;
+	}
+	.showcase-item{
+		width: 50%;
+	}
+
+	.showcase-page .personal{
+		width: 165px;
+		padding-left:20px;
+	}
+
+	.showcase-page .textinfo{
+		width: 260px;
+	}
+
+	.showcase{
+		height: 700px;
+	}
+
+	/* Clients Container */
+	.clients-container{
+		height:150px;
+		padding-top: 50px;
+	}
+
+	/* Blog Fix */
+	.left.blogpage .main{
+		margin-top: 50px;
+	}
+	.left.blogpage .main h1{
+		margin-bottom: 30px;
+	}
+
+}
